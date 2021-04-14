@@ -2,7 +2,8 @@ import {getNewAuthToken, getCurrentUser} from './api.js'
 
 const APP = {
   currentUser: null,
-  /* Example of using Getters and Setters to add special handling
+  /*
+   * Example of using Getters and Setters to add special handling
    * of object property values. @see https://javascript.info/property-accessors
    *
    * Use a pseudo-private property `APP._jwt` to store the actual token value.
