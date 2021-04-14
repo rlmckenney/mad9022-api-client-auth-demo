@@ -1,6 +1,7 @@
 const API_BASE_URL = "https://giftr.mad9124.rocks";
 const API_KEY = "mckennr"; // this should be YOUR college username
 
+
 // Manuel did changes
 export async function getNewAuthToken(email, password) {
   const response = await fetch(`${API_BASE_URL}/auth/tokens`, {
